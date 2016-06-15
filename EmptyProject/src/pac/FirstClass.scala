@@ -1,5 +1,7 @@
 
 
+package pac
+
 class FirstClass {
   
 }
