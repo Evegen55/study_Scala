@@ -1,0 +1,300 @@
+
+d:\11_work_spaces\git\study_Scala\example>sbt
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; sup
+port was removed in 8.0
+Getting org.scala-sbt sbt 0.13.9 ...
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/0.
+13.9/jars/sbt.jar ...
+        [SUCCESSFUL ] org.scala-sbt#sbt;0.13.9!sbt.jar (2264ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/main/0
+.13.9/jars/main.jar ...
+        [SUCCESSFUL ] org.scala-sbt#main;0.13.9!main.jar (3281ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compil
+er-interface/0.13.9/jars/compiler-interface-src.jar ...
+        [SUCCESSFUL ] org.scala-sbt#compiler-interface;0.13.9!compiler-interface
+-src.jar (2298ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compil
+er-interface/0.13.9/jars/compiler-interface-bin.jar ...
+        [SUCCESSFUL ] org.scala-sbt#compiler-interface;0.13.9!compiler-interface
+-bin.jar (2453ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precom
+piled-2_8_2/0.13.9/jars/compiler-interface-bin.jar ...
+        [SUCCESSFUL ] org.scala-sbt#precompiled-2_8_2;0.13.9!compiler-interface-
+bin.jar (2468ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precom
+piled-2_9_2/0.13.9/jars/compiler-interface-bin.jar ...
+        [SUCCESSFUL ] org.scala-sbt#precompiled-2_9_2;0.13.9!compiler-interface-
+bin.jar (2438ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precom
+piled-2_9_3/0.13.9/jars/compiler-interface-bin.jar ...
+        [SUCCESSFUL ] org.scala-sbt#precompiled-2_9_3;0.13.9!compiler-interface-
+bin.jar (2479ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/action
+s/0.13.9/jars/actions.jar ...
+        [SUCCESSFUL ] org.scala-sbt#actions;0.13.9!actions.jar (2590ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/main-s
+ettings/0.13.9/jars/main-settings.jar ...
+        [SUCCESSFUL ] org.scala-sbt#main-settings;0.13.9!main-settings.jar (2636
+ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/interf
+ace/0.13.9/jars/interface.jar ...
+        [SUCCESSFUL ] org.scala-sbt#interface;0.13.9!interface.jar (2342ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/io/0.1
+3.9/jars/io.jar ...
+        [SUCCESSFUL ] org.scala-sbt#io;0.13.9!io.jar (2624ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/ivy/0.
+13.9/jars/ivy.jar ...
+        [SUCCESSFUL ] org.scala-sbt#ivy;0.13.9!ivy.jar (3034ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/loggin
+g/0.13.9/jars/logging.jar ...
+        [SUCCESSFUL ] org.scala-sbt#logging;0.13.9!logging.jar (2514ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/logic/
+0.13.9/jars/logic.jar ...
+        [SUCCESSFUL ] org.scala-sbt#logic;0.13.9!logic.jar (2359ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/proces
+s/0.13.9/jars/process.jar ...
+        [SUCCESSFUL ] org.scala-sbt#process;0.13.9!process.jar (2392ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/run/0.
+13.9/jars/run.jar ...
+        [SUCCESSFUL ] org.scala-sbt#run;0.13.9!run.jar (2374ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/comman
+d/0.13.9/jars/command.jar ...
+        [SUCCESSFUL ] org.scala-sbt#command;0.13.9!command.jar (2500ms)
+downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.
+0-M1/launcher-interface-1.0.0-M1.jar ...
+        [SUCCESSFUL ] org.scala-sbt#launcher-interface;1.0.0-M1!launcher-interfa
+ce.jar (405ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/classp
+ath/0.13.9/jars/classpath.jar ...
+        [SUCCESSFUL ] org.scala-sbt#classpath;0.13.9!classpath.jar (2360ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/comple
+tion/0.13.9/jars/completion.jar ...
+        [SUCCESSFUL ] org.scala-sbt#completion;0.13.9!completion.jar (2498ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/api/0.
+13.9/jars/api.jar ...
+        [SUCCESSFUL ] org.scala-sbt#api;0.13.9!api.jar (2439ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compil
+er-integration/0.13.9/jars/compiler-integration.jar ...
+        [SUCCESSFUL ] org.scala-sbt#compiler-integration;0.13.9!compiler-integra
+tion.jar (2463ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compil
+er-ivy-integration/0.13.9/jars/compiler-ivy-integration.jar ...
+        [SUCCESSFUL ] org.scala-sbt#compiler-ivy-integration;0.13.9!compiler-ivy
+-integration.jar (2262ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/relati
+on/0.13.9/jars/relation.jar ...
+        [SUCCESSFUL ] org.scala-sbt#relation;0.13.9!relation.jar (2277ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/task-s
+ystem/0.13.9/jars/task-system.jar ...
+        [SUCCESSFUL ] org.scala-sbt#task-system;0.13.9!task-system.jar (2359ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/tasks/
+0.13.9/jars/tasks.jar ...
+        [SUCCESSFUL ] org.scala-sbt#tasks;0.13.9!tasks.jar (2393ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/tracki
+ng/0.13.9/jars/tracking.jar ...
+        [SUCCESSFUL ] org.scala-sbt#tracking;0.13.9!tracking.jar (2294ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/testin
+g/0.13.9/jars/testing.jar ...
+        [SUCCESSFUL ] org.scala-sbt#testing;0.13.9!testing.jar (2298ms)
+downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.5/
+scala-compiler-2.10.5.jar ...
+        [SUCCESSFUL ] org.scala-lang#scala-compiler;2.10.5!scala-compiler.jar (1
+9562ms)
+downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.5/s
+cala-reflect-2.10.5.jar ...
+        [SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.5!scala-reflect.jar (309
+5ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/contro
+l/0.13.9/jars/control.jar ...
+        [SUCCESSFUL ] org.scala-sbt#control;0.13.9!control.jar (2500ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/collec
+tions/0.13.9/jars/collections.jar ...
+        [SUCCESSFUL ] org.scala-sbt#collections;0.13.9!collections.jar (2514ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/increm
+ental-compiler/0.13.9/jars/incremental-compiler.jar ...
+        [SUCCESSFUL ] org.scala-sbt#incremental-compiler;0.13.9!incremental-comp
+iler.jar (2423ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compil
+e/0.13.9/jars/compile.jar ...
+        [SUCCESSFUL ] org.scala-sbt#compile;0.13.9!compile.jar (2376ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/persis
+t/0.13.9/jars/persist.jar ...
+        [SUCCESSFUL ] org.scala-sbt#persist;0.13.9!persist.jar (2376ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/classf
+ile/0.13.9/jars/classfile.jar ...
+        [SUCCESSFUL ] org.scala-sbt#classfile;0.13.9!classfile.jar (2641ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/cross/
+0.13.9/jars/cross.jar ...
+        [SUCCESSFUL ] org.scala-sbt#cross;0.13.9!cross.jar (2234ms)
+downloading https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-c5d1b
+95fdcc1e1007740ffbecf4eb07abc51ec93/ivy-2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb0
+7abc51ec93.jar ...
+        [SUCCESSFUL ] org.scala-sbt.ivy#ivy;2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf
+4eb07abc51ec93!ivy.jar (937ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/cache/
+0.13.9/jars/cache.jar ...
+        [SUCCESSFUL ] org.scala-sbt#cache;0.13.9!cache.jar (2339ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/test-a
+gent/0.13.9/jars/test-agent.jar ...
+        [SUCCESSFUL ] org.scala-sbt#test-agent;0.13.9!test-agent.jar (3396ms)
+downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/apply-
+macro/0.13.9/jars/apply-macro.jar ...
+        [SUCCESSFUL ] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar (2279ms)
+:: retrieving :: org.scala-sbt#boot-app
+        confs: [default]
+        52 artifacts copied, 0 already retrieved (17785kB/671ms)
+Getting Scala 2.10.5 (for sbt)...
+downloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.5/jline-2.1
+0.5.jar ...
+        [SUCCESSFUL ] org.scala-lang#jline;2.10.5!jline.jar (327ms)
+:: retrieving :: org.scala-sbt#boot-scala
+        confs: [default]
+        5 artifacts copied, 0 already retrieved (24493kB/62ms)
+[info] Loading project definition from D:\11_work_spaces\git\study_Scala\example
+\project
+[info] Updating {file:/D:/11_work_spaces/git/study_Scala/example/project/}exampl
+e-build...
+[info] Resolving org.scala-sbt.ivy#ivy;2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07
+[info] Resolving org.fusesource.jansi#jansi;1.4 ...
+[info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.t
+ypesafe.sbteclipse/sbteclipse-plugin/scala_2.10/sbt_0.13/4.0.0/jars/sbteclipse-p
+lugin.jar ...
+[info]  [SUCCESSFUL ] com.typesafe.sbteclipse#sbteclipse-plugin;4.0.0!sbteclipse
+-plugin.jar (2622ms)
+[info] downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.
+1.0/scalaz-core_2.10-7.1.0.jar ...
+[info]  [SUCCESSFUL ] org.scalaz#scalaz-core_2.10;7.1.0!scalaz-core_2.10.jar(bun
+dle) (3932ms)
+[info] downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/
+7.1.0/scalaz-effect_2.10-7.1.0.jar ...
+[info]  [SUCCESSFUL ] org.scalaz#scalaz-effect_2.10;7.1.0!scalaz-effect_2.10.jar
+(bundle) (499ms)
+[info] Done updating.
+[info] Compiling 7 Scala sources to D:\11_work_spaces\git\study_Scala\example\pr
+oject\target\scala-2.10\sbt-0.13\classes...
+[info] Set current project to progfun1-example (in build file:/D:/11_work_spaces
+/git/study_Scala/example/)
+> console
+[info] Updating {file:/D:/11_work_spaces/git/study_Scala/example/}root...
+[info] Resolving org.sonatype.oss#oss-parent;7 ...
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2
+.11.7/scala-library-2.11.7.jar ...
+[info]  [SUCCESSFUL ] org.scala-lang#scala-library;2.11.7!scala-library.jar (287
+4ms)
+[info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2
+.2.4/scalatest_2.11-2.2.4.jar ...
+[info]  [SUCCESSFUL ] org.scalatest#scalatest_2.11;2.2.4!scalatest_2.11.jar(bund
+le) (3701ms)
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-p
+arser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar ...
+[info]  [SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
+!scala-parser-combinators_2.11.jar(bundle) (516ms)
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2
+.11.2/scala-reflect-2.11.2.jar ...
+[info]  [SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar (314
+3ms)
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-x
+ml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar ...
+[info]  [SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11
+.jar(bundle) (703ms)
+[info] downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.ja
+r ...
+[info]  [SUCCESSFUL ] junit#junit;4.10!junit.jar (391ms)
+[info] downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1
+/hamcrest-core-1.1.jar ...
+[info]  [SUCCESSFUL ] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar (265ms)
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/
+2.11.7/scala-compiler-2.11.7.jar ...
+[info]  [SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar (7
+563ms)
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2
+.11.7/scala-reflect-2.11.7.jar ...
+[info]  [SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar (226
+4ms)
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-x
+ml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar ...
+[info]  [SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11
+.jar(bundle) (638ms)
+[info] downloading https://repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.
+1.jar ...
+[info]  [SUCCESSFUL ] jline#jline;2.12.1!jline.jar (405ms)
+[info] Done updating.
+[info] Compiling 2 Scala sources to D:\11_work_spaces\git\study_Scala\example\ta
+rget\scala-2.11\classes...
+[info] 'compiler-interface' not yet compiled for Scala 2.11.7. Compiling...
+[info]   Compilation completed in 15.574 s
+[info] Starting scala interpreter...
+[info]
+Welcome to Scala version 2.11.7 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_9
+1).
+Type in expressions to have them evaluated.
+Type :help for more information.
+
+scala> println("Oh, hai!")
+Oh, hai!
+
+scala> val l = List(1, 2, 3)
+l: List[Int] = List(1, 2, 3)
+
+scala> val squares = l.map(x => x * x)
+squares: List[Int] = List(1, 4, 9)
+
+scala>
+[success] Total time: 124 s, completed 18.06.2016 23:24:23
+> compile
+[success] Total time: 0 s, completed 18.06.2016 23:24:35
+> test
+[info] Compiling 1 Scala source to D:\11_work_spaces\git\study_Scala\example\tar
+get\scala-2.11\test-classes...
+[info] ListsSuite:
+[info] - one plus one is two
+[info] - one plus one is three? *** FAILED ***
+[info]   org.scalatest.exceptions.TestFailedException was thrown. (ListsSuite.sc
+ala:50)
+[info] - details why one plus one is not three *** FAILED ***
+[info]   2 did not equal 3 (ListsSuite.scala:75)
+[info] - intNotZero throws an exception if its argument is 0
+[info] - sum of a few numbers *** FAILED ***
+[info]   scala.NotImplementedError: an implementation is missing
+[info]   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)
+[info]   at example.Lists$.sum(Lists.scala:26)
+[info]   at example.ListsSuite$$anonfun$5.apply$mcV$sp(ListsSuite.scala:117)
+[info]   at example.ListsSuite$$anonfun$5.apply(ListsSuite.scala:117)
+[info]   at example.ListsSuite$$anonfun$5.apply(ListsSuite.scala:117)
+[info]   at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.
+scala:22)
+[info]   at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:20)
+[info]   ...
+[info] - max of a few numbers *** FAILED ***
+[info]   scala.NotImplementedError: an implementation is missing
+[info]   at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)
+[info]   at example.Lists$.max(Lists.scala:41)
+[info]   at example.ListsSuite$$anonfun$6.apply$mcV$sp(ListsSuite.scala:121)
+[info]   at example.ListsSuite$$anonfun$6.apply(ListsSuite.scala:121)
+[info]   at example.ListsSuite$$anonfun$6.apply(ListsSuite.scala:121)
+[info]   at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.
+scala:22)
+[info]   at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:20)
+[info]   ...
+[info] Run completed in 436 milliseconds.
+[info] Total number of tests run: 6
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 2, failed 4, canceled 0, ignored 0, pending 0
+[info] *** 4 TESTS FAILED ***
+[error] Failed tests:
+[error]         example.ListsSuite
+[error] (test:test) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 3 s, completed 18.06.2016 23:24:55
+> run
+java.lang.RuntimeException: No main class detected.
+        at scala.sys.package$.error(package.scala:27)
+[trace] Stack trace suppressed: run last compile:run for the full output.
+[error] (compile:run) No main class detected.
+[error] Total time: 0 s, completed 18.06.2016 23:25:18
+>
